@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url(header.css);
+@import url(banner.css);
+@import url(skills.css);
+@import url(backgroundbody.css);
+
+
+:root{
+	--color-primary: #260C1A;
+	--color-secondary: #F05D23;
+	--color-third: #C5D86D;
+	--color-four: #F7F7F2;
+	--font-logo: 'Unica One', cursive;
+	--font-text: 'Nunito', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2, h3, h4, h5, h6, p, span, a{
+	font-family: var(--font-text);
+}

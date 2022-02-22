@@ -1,0 +1,41 @@
+.banner {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid var(--color-third);
+	background-image: url(../img/bn.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.contenedor__banner {
+	padding: 20px;
+	/*background: var(--color-four);*/
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor__banner img{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 180px;
+	border: 5px solid var(--color-four);
+
+}
+
+.contenedor__banner h2 {
+	color: var(--color-secondary);
+	margin-top: 8px;
+	text-align: center;
+}
+
+.contenedor__banner p {
+	text-align: center;
+	margin-top: 7px;
+	color: var(--color-four);
+}
