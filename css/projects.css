@@ -15,8 +15,8 @@
 .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .card{
