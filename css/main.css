@@ -3,7 +3,7 @@
 @import url(header.css);
 @import url(banner.css);
 @import url(skills.css);
-@import url(backgroundbody.css);
+/* @import url(backgroundbody.css); */
 @import url(projects.css);
 @import url(footer.css);
 
@@ -25,4 +25,31 @@
 
 h2, h3, h4, h5, h6, p, span, a{
 	font-family: var(--font-text);
+}
+
+.btn-top{
+	position: fixed;
+	outline: 0;
+	border: 0;
+	background-color: var(--color-secondary);
+	border-radius: 5px;
+	font-size: 150%;
+	width: 3.5rem;
+	height: 3.5rem;
+	bottom: 1vh;
+	right: 2vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.671);
+}
+
+.btn-top:hover{
+	opacity: 95%;
+}
+
+.hidden{
+	opacity: 0;
+	visibility: hidden;
 }
