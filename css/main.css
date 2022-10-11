@@ -1,56 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url(header.css);
-@import url(banner.css);
-@import url(skills.css);
-/* @import url(backgroundbody.css); */
-@import url(projects.css);
-@import url(footer.css);
+@import url("navigation.css");
+@import url("header.css");
+@import url("skills.css");
 
-
-:root{
-	--color-primary: #260C1A;
-	--color-secondary: #F05D23;
-	--color-third: #C5D86D;
-	--color-four: #F7F7F2;
-	--font-logo: 'Unica One', cursive;
-	--font-text: 'Nunito', sans-serif;
+:root {
+  --bgc-black: #050505;
+  --bgc-brown: #c62f27;
+  --bgc-white: #f2f2f2;
+  --bgc-graylight: #cbd3cb;
+  --bgc-gray: #8e8e8d;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h2, h3, h4, h5, h6, p, span, a{
-	font-family: var(--font-text);
+body{
+  font-family: 'Kanit', sans-serif;
 }
 
-.btn-top{
-	position: fixed;
-	outline: 0;
-	border: 0;
-	background-color: var(--color-secondary);
-	border-radius: 5px;
-	font-size: 150%;
-	width: 3.5rem;
-	height: 3.5rem;
-	bottom: 1vh;
-	right: 2vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.671);
-	color: var(--color-primary);
+main{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
-.btn-top:hover{
-	opacity: 95%;
+section{
+  margin: 1rem auto;
+  max-width: 1000px;
+  min-height: 100vh;
+  padding: 5px;
+  /* border: 1px solid red; */
 }
 
-.hidden{
-	opacity: 0;
-	visibility: hidden;
+h2{
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
 }
