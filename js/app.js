@@ -16,9 +16,6 @@ const typed = new Typed('.npmi', {
   cursorChar: '_',
   typeSpeed: 75,
   loop: true,
+  loopCount: 1,
   contenType: 'html'
 });
-
-// const typedtwo = new Typed('.detail', {
-//   strings: []
-// });

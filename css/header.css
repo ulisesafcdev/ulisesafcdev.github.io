@@ -11,18 +11,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 10px;
 }
 
-.header svg {
+/* .header svg {
   margin-bottom: -3px;
-}
+} */
 
 .header-container{
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  max-width: 1000px;
+  padding: 1rem 0;
 }
 
 .header-info{
@@ -39,11 +40,11 @@
 }
 
 .header-img{
-  padding: 1rem;
+  padding: 1rem 0 1rem 1rem;
 }
 .header-img img{
-  width: 355px;
-  height: 355px;
+  width: 275px;
+  height: 275px;
   border-radius: 50%;
   object-fit: cover;
   object-position: 50% 0%;

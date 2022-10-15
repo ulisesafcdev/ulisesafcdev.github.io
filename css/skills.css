@@ -15,7 +15,7 @@
   padding: 1rem;
   border-radius: 10px;
   font-family: monospace;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .skill-typed .dirurl{
@@ -47,7 +47,39 @@
 }
 
 .caja{
-  margin: 1rem;
+  margin: 1.5rem 1rem;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.caja .tooltip{
+  display: none;
+  width: 100px;
+  background-color: #16213E;
+  color: #9FB4FF;
+  text-align: center;
+  padding: 4px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 115%;
+  left: 50%;
+  margin-left: -50px;
+  z-index: 1;
+}
+.caja .tooltip::after{
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.caja:hover .tooltip{
+  display: block;
 }
 
 .caja img{
