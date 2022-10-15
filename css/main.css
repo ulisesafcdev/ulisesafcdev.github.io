@@ -1,6 +1,7 @@
 @import url("navigation.css");
 @import url("header.css");
 @import url("skills.css");
+@import url("about.css");
 
 :root {
   --bgc-black: #050505;
