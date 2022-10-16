@@ -2,6 +2,7 @@
 @import url("header.css");
 @import url("skills.css");
 @import url("about.css");
+@import url("projects.css");
 
 :root {
   --bgc-black: #050505;
@@ -33,7 +34,6 @@ main{
 section{
   margin: 1rem auto;
   max-width: 1000px;
-  min-height: 100vh;
   padding: 5px;
   /* border: 1px solid red; */
 }
