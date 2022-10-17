@@ -1,3 +1,7 @@
+#section-projects{
+  min-height: auto;
+}
+
 #section-projects h2{
   margin-bottom: 2rem;
 }
@@ -15,11 +19,9 @@
   cursor: pointer;
   padding: 10px 20px;
   /* margin: 0px 2px; */
-  background: #16213E;
+  /* background: #16213E; */
   display: inline-block;
-  color: #9FB4FF;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  color: var(--bgc-black);
 }
 
 .panels{
@@ -27,8 +29,7 @@
   height: auto;
   width: 100%;
   min-height: 600px;
-  border-top: 3px solid #16213E;
-  border-top-left-radius: -100px ;
+  border-top: 3px solid #f2f2f2;
 }
 
 .panel{
@@ -61,24 +62,35 @@
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
 #three:checked ~ .tabs #three-tab{
-  background-color: #222;
-  border-top: 3px solid #9FB4FF;
+  color: #4d587c;
+  border-bottom: 3px solid #9FB4FF;
 }
 
 /* ---------------------------------- tabs ---------------------------------- */
 
 .card{
+  min-height: 400px;
   margin: 1rem;
-  box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.5);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
 }
 
 .card-content{
-  border-top: 6px solid #333;
+  height: 160px;
+  border-top: 3px solid #9FB4FF;
+  /* display: flex;
+  align-items: center; */
 }
 
-.card-content p:nth-child(1){
-  font-weight: 700;
+.card-content p{
+  font-size: 15px;
+} 
+
+.card-content a{
+  color: #16213E;
+}
+.card-content a:hover{
+  color: #4d587c;
 }
 
 .card-action{
@@ -101,9 +113,19 @@
   padding: 1rem;
 }
 
+.card-img{
+  display: flex;
+}
+
 .card-img img{
   width: 100%;
-  height: auto;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  height: 100%;
+  /* object-fit: contain; */
+  /* border-top-left-radius: 6px; */
+  /* border-top-right-radius: 6px; */
 } 
+
+.title-panel{
+  margin-left: 1rem;
+  font-size: 22px;
+}
